@@ -12,8 +12,9 @@ indicates whether the memory access is a read (R) or a write (W). The trace file
 with a #eof string. 
 
 
-The program supports the following usage interface: ./first <cache size><block size><cache policy><associativity><prefetch
-size><trace file>
+The program supports the following usage interface: ./first cache size  block size cache policy associativity prefetch
+size trace file
+
 where:
 A) <cache size>is the total size of the cache in bytes. This number should be a power of 2.
 B) <block size>is a power of 2 integer that specifies the size of the cache block in bytes.
